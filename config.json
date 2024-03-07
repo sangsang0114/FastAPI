@@ -1,0 +1,21 @@
+{
+    "raw_data_dir": [
+        "data/finance/raw", 
+        "data/land/raw"
+    ],
+    "clean_data_dir": [
+        "data/finance/clean", 
+        "data/land/clean"
+    ],
+    "max_unique_word" :5000,
+    "model_o" : "model/model_o.h5" ,
+    "model_e" : "model/model_e.h5" ,   
+      
+    "max_len": 32, 
+    
+    "embd_size": 8,
+    "lr": 1e-4,
+    
+    "num_epochs": 200,
+    "batch_size": 1024 
+}
